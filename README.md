@@ -277,15 +277,13 @@
               Conjunto de Prompts Reutilizáveis para Revisão
               Estes prompts podem ser usados em assistentes de IA para testar seu conhecimento ou gerar exemplos baseados nos documentos:
   
-              Prompt de Quiz Teórico:"Com base no conceito de CRUD e SQLAlchemy, crie 5 perguntas de múltipla escolha. Inclua questões sobre a diferença entre o método .add() da Session e o comando SQL INSERT INTO,                                         e como o SQLAlchemy automatiza a criação de chaves primárias comparado ao SQL puro."
+              Prompt de Quiz Teórico:"Com base no conceito de CRUD e SQLAlchemy, crie 5 perguntas de múltipla escolha. Inclua questões sobre a diferença entre o método .add() da Session e o comando SQL INSERT INTO,  e como o SQLAlchemy automatiza a criação de chaves primárias comparado ao SQL puro."
   
-              Prompt de Debugging:"Analise este código Python que utiliza mysql-connector:
-                                    Verifique se ele segue o fluxo correto de transações (commit) e fechamento de conexão ensinado no material."
+              Prompt de Debugging:"Analise este código Python que utiliza mysql-connector. Verifique se ele segue o fluxo correto de transações (commit) e fechamento de conexão ensinado no material."
   
-              Prompt de Conversão de Lógica:"Eu tenho a seguinte consulta SQL de agregação:
-                                              Como eu poderia replicar essa mesma lógica utilizando um DataFrame do Pandas após extrair os dados brutos? Explique a vantagem de usar o Pandas para cálculos                                                             estatísticos mais complexos."
+              Prompt de Conversão de Lógica:"Eu tenho a seguinte consulta SQL de agregação. Como eu poderia replicar essa mesma lógica utilizando um DataFrame do Pandas após extrair os dados brutos? Explique a vantagem de usar o Pandas para cálculos estatísticos mais complexos."
   
-              Prompt de Prática de ORM: "Dada a tabela 'Teacher' (ou Professor) mencionada nos documentos, escreva o código para definir essa classe usando SQLAlchemy Declarative Base (campos: id, nome,                                                       especialidade). Em seguida, mostre como usar uma Session para realizar uma 'exclusão em lote' de professores que não possuem disciplinas atribuídas."
+              Prompt de Prática de ORM: "Dada a tabela 'Teacher' (ou Professor) mencionada nos documentos, escreva o código para definir essa classe usando SQLAlchemy Declarative Base (campos: id, nome,              especialidade). Em seguida, mostre como usar uma Session para realizar uma 'exclusão em lote' de professores que não possuem disciplinas atribuídas."
   
               Prompt de Tratamento de Erros:"Crie um exemplo de bloco try-except-else-finally para uma operação de atualização (UPDATE) no SQL. O código deve tratar especificamente a exceção 'NameError' (caso a                                                   variável de conexão não exista) e garantir que o cursor.close() seja executado no bloco finally, independentemente de a atualização ter tido sucesso ou não."
 
